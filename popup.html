@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AKL Helper</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>AKL Helper</h1>
+  <p class="small">Windows On-Screen Keyboard launcher</p>
+
+  <section class="status-card">
+    <h2>Status</h2>
+    <div class="kv"><span>Version</span><code id="versionText">loading</code></div>
+    <div class="kv"><span>Extension ID</span><code id="extensionIdText">loading</code></div>
+    <div class="kv"><span>Native Host</span><code id="hostText">not checked</code></div>
+  </section>
+
+  <section>
+    <h2>Setup and checks</h2>
+    <button id="copyIdBtn">Copy Extension ID</button>
+    <button id="registerBtn">Register right-click menu and open test page</button>
+    <button id="testNativeBtn">Check Windows Native Host</button>
+    <button id="launchBtn">Launch keyboard test</button>
+    <button id="copyDiagBtn">Copy last diagnostics</button>
+    <pre id="result">Ready.</pre>
+  </section>
+
+  <section>
+    <h2>After registration</h2>
+    <p class="small">Restart Chrome completely. Then right click a normal web page and choose:</p>
+    <code>Launch Windows On-Screen Keyboard</code>
+  </section>
+
+  <section>
+    <h2>Folders</h2>
+    <p class="small">Run user setup files from:</p>
+    <code>windows_setup</code>
+    <p class="small">Internal native host files:</p>
+    <code>native_host_windows</code>
+  </section>
+
+  <script src="popup.js"></script>
+</body>
+</html>

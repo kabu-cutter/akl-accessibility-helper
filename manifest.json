@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "AKL Accessibility Helper",
+  "version": "1.2.0",
+  "description": "Launch Windows On-Screen Keyboard from the Chrome right-click menu. Includes stronger Native Host checks.",
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "scripting",
+    "storage",
+    "tabs",
+    "nativeMessaging"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

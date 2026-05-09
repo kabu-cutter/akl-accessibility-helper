@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "AKL Accessibility Helper",
-  "version": "1.2.0",
-  "description": "Launch Windows On-Screen Keyboard from the Chrome right-click menu. Includes stronger Native Host checks.",
+  "version": "1.2.1",
+  "description": "Launch Windows On-Screen Keyboard from the Chrome right-click menu. Service worker syntax fix and Native Host checks.",
   "permissions": [
     "contextMenus",
     "activeTab",

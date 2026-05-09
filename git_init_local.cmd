@@ -30,10 +30,10 @@ if errorlevel 1 goto fail
 git add .
 if errorlevel 1 goto fail
 
-git commit -m "Initial commit: AKL Accessibility Helper v1.2.0"
+git commit -m "Initial commit: AKL Accessibility Helper v1.2.1"
 if errorlevel 1 goto fail
 
-git tag v1.2.0
+git tag v1.2.1
 if errorlevel 1 goto fail
 
 echo.

@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.2.1
+- Fixed Service Worker registration failure caused by invalid newline characters in JavaScript string literals.
+- Fixed `background.js` and `popup.js` syntax errors.
+- Replaced Windows path text in JavaScript UI messages with forward slashes to avoid escape-character issues.
+- Kept Windows CMD files ASCII-only.
+
 ## v1.2.0
 
 - Added stronger Native Host check from the popup.

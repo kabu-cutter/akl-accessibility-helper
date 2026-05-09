@@ -32,3 +32,8 @@ This package uses Chrome Native Messaging because a Chrome extension cannot dire
 - The `.cmd` files use ASCII text only.
 - The Native Host is registered under the current Windows user.
 - If the check fails, run `windows_setup/01_install_native_host.cmd` again and restart Chrome.
+
+## v1.2.1 note
+
+This release fixes a Service Worker syntax error in v1.2.0. If Chrome shows `Service worker registration failed. Status code: 15`, remove the old extension folder and load this v1.2.1 folder instead.
+

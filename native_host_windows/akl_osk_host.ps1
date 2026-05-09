@@ -50,7 +50,7 @@ function Get-Diagnostics {
         ok = $true
         message = 'native host ready'
         host = 'com.akl.accessibility_keyboard'
-        version = '1.2.0'
+        version = '1.2.1'
         commandShell = $PSCommandPath
         oskPath = $osk
         oskPathExists = $exists
@@ -72,7 +72,7 @@ try {
     Log "Command: $cmd"
 
     if ($cmd -eq 'ping') {
-        Send-NativeMessage @{ ok = $true; message = 'pong'; version = '1.2.0' }
+        Send-NativeMessage @{ ok = $true; message = 'pong'; version = '1.2.1' }
         exit 0
     }
 

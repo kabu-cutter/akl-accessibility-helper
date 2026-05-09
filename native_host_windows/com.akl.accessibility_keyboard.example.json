@@ -1,0 +1,9 @@
+{
+  "name": "com.akl.accessibility_keyboard",
+  "description": "AKL Windows On-Screen Keyboard Native Host",
+  "path": "C:\\CHANGE_ME\\native_host_windows\\akl_osk_host.cmd",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://CHANGE_EXTENSION_ID/"
+  ]
+}

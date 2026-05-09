@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AKL Helper</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>AKL Helper</h1>
+  <p class="small">Windows On-Screen Keyboard launcher</p>
+
+  <section>
+    <h2>First setup</h2>
+    <button id="copyIdBtn">Copy Extension ID</button>
+    <button id="registerBtn">Register right-click menu and open test page</button>
+    <button id="testNativeBtn">Test native host</button>
+    <button id="launchBtn">Launch keyboard test</button>
+    <pre id="result">Ready.</pre>
+  </section>
+
+  <section>
+    <h2>Folder layout</h2>
+    <p class="small">Run files are in:</p>
+    <code>windows_setup</code>
+    <p class="small">Internal native host files are in:</p>
+    <code>native_host_windows</code>
+  </section>
+
+  <section>
+    <h2>After registration</h2>
+    <p class="small">Restart Chrome. Then right click a normal web page and choose:</p>
+    <code>Launch Windows On-Screen Keyboard</code>
+  </section>
+
+  <script src="popup.js"></script>
+</body>
+</html>
